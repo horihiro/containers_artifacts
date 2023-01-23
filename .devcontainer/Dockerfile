@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ARG COMPOSE_VERSION=1.24.0
 
 # Helm Version
-ARG HELM_VERSION=3.6.3
+ARG HELM_VERSION=3.10.3
 
 # Configure apt and install packages
 RUN apt-get update \
